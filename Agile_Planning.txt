@@ -1,0 +1,113 @@
+My Skate Spots
+
+Pitch:
+Enabling skateboards to share their local skate spots, along with an image, a description, a rating, and a geo location, allowing other users to find those spots based on their location.
+
+Architecture:
+
+Front End:
+- ReactJS for building the user interface and displaying the skateboarding spots
+- A map library (such as Mapbox or Google Maps) for showing the location of skateboarding spots
+- A user authentication system (such as Firebase Authentication) for allowing users to sign up, log in, and submit new spots
+- A form for users to submit new spots, including fields for the spot name, description, location, and rating
+- A page to expand on skate spots and read more about it.
+
+Back-end:
+- NodeJS for handling server-side logic
+- ExpressJS for building the API and handling HTTP requests from the front-end
+- A MySQL database for storing information about skateboarding spots, including the spot name, description, location, and rating
+- A geo-coding API (such as Google Maps Geocoding API) for converting the user's location into latitude and longitude coordinates
+
+Agile:
+
+Big User Stories:
+
+- Users should be able to Register and login into their accounts
+    - Priority: High
+
+- Users should be able to post a skate spot
+    - Priority: High - Medium
+
+- Users should be able to see spots posted by other users
+    - Priority: High - 
+
+- Users should be able to interact with other user’s spots
+    - Priority: Medium - Low
+
+- Users should get notified when a new spot is added near them
+    - Priority: Low
+
+Detailed User Stories:
+
+Users should be able to Register and login into their accounts
+
+- As a user I want to register an account with my name, username, email, and password [P: High C: 0.5 day]
+
+- As a user I want to login to my account using my email/username and password [P: High C: 0.5 days]
+
+- As a user I want to be able to add a profile picture, a postal code, and bio to my account [P: Medium C: 1 day]
+
+- As a user I want to be able to add my skating proficiency [P: Low C: 0.5 day]
+
+
+Users should be able to post a skate spot
+
+- As a user I want to be able to post a skate spot with a location, an image, a description, and tags [P: High C: 2 days]
+
+- As a user I want to be able to post a skate spot along with bust rating, difficulty ratting [P: Medium C: 1 day]
+
+- As a user I want to be able to set a post to private or public [P: Low C: 0.5 day]
+
+
+Users should be able to see spots posted by other users
+
+- As a user I want to be able to search posts by location (city) [P: High C: 2 days]
+
+- As a user I want to be able to search posts by a specific address with kilometre radius range. [P: High C: 2 days]
+
+- As a user I want to see the resulting spots displayed as pointers on a map and be able to click them to see the post. [P: Medium C: 3 days]
+
+- As a user I want to see a list of recommended spots, based on my user profile information [P: Medium C: 3 days]
+
+
+Users should be able to interact with other user’s spots
+
+- As a user I want to be able to like other user’s posts [P: High C: 1 day]
+
+- As a user I want to be able to save other user’s posts [P: High C: 1 day]
+
+- As a user I want to be able to comment on other user’s posts [P: High C: 2 days]
+
+- As a user I want to be able to post a review on other user’s posts [P: Medium C: 3 days]
+
+- As a user I want to be able to post a review with an image on other user’s posts [P: Low C: 4 days]
+
+
+Users should get notified when a new spot is added near them
+
+- As a user I want to set preferences for my notification based on kilometre range off my address, and proficiency level [P: Low C: 3 days]
+
+- As a user I want to be able to get notified of spots that fit my preferences by automated email. [P: Low C: 1 day]
+
+- As a user I want to be able to get notified of spots that fit my preferences browser notification system. [P: Low C: 1 day]
+
+
+Iterations:
+
+Itr 1: 
+
+[ ] As a user I want to register an account with my name, username, email, and password [P: High C: 0.5 day]
+
+[ ] As a user I want to login to my account using my email/username and password [P: High C: 0.5 days]
+
+[ ] As a user I want to be able to post a skate spot with a location, an image, a description, and tags [P: High C: 2 days]
+
+[ ] As a user I want to be able to search posts by location (city) [P: High C: 2 days]
+
+[ ] As a user I want to be able to search posts by a specific address with kilometre radius range. [P: High C: 2 days]
+ 
+[ ] As a user I want to be able to like other user’s posts [P: High C: 1 day]
+
+[ ] As a user I want to be able to save other user’s posts [P: High C: 1 day]
+
+[ ] As a user I want to be able to comment on other user’s posts [P: High C: 2 days]
